@@ -1,0 +1,125 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+height: 150vh;
+}
+.top{
+  background-color: rgba(5, 5, 5, 0.695);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+.myImage{
+  position: fixed;
+  right: 0;
+  height: 60vh;
+  border-radius: 60vh;
+  min-height: 60vh;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.myIntro{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice{
+  padding : 2vh;
+  display: flex;
+  background-color: rgba(142, 52, 52, 0.72) ;
+  position: sticky;
+  top: 0;
+  justify-content: space-around;
+  height: 8vh;
+  z-index: 4;
+}
+.choice button{
+  z-index: 4;
+  border-radius: 30px;
+  top: 50%;
+  margin-right: 2vw;
+  height: fit-content;
+  border: none;
+  padding: 5px;
+  border: 1px solid rgb(21, 255, 0);
+  font-size: 25px;
+  background-color: rgba(128, 255, 0, 0.566);
+}
+
+.educationDiv{
+  background-color: rgba(0, 0, 0, 0.654);
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 30px;
+  color: white;
+}
+.other{
+  position: sticky;
+  top : 0;
+  margin-bottom: 40px;
+}
+.college,.school,.certi{
+  display: flex;
+}
+
+
+#collegeImg,#certImg{
+  height: 35vh;
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 30vw;
+}
+
+.collegeInfo,.certinfo{
+  margin-left: 15vw;
+  width: 40vw;
+}
+.intermediate{
+  display: flex;
+  justify-content: space-between;
+}
+.schoolInfo{
+  width: 40vw;
+  margin-left: 3vw;
+}
+.school,.intermediate{
+  margin-top: 5vh;
+}
+
+.educationDiv{
+  font-size: 19px;
+}
+.certinfo,.genai,.sih,.azura{
+  margin-top: 8vh;
+}
+
+a{
+  text-decoration: underline;
+  color: white;
+}
+a:hover{
+  color: rgb(0, 255, 0);
+}
+
+.genaInfo{
+  width: 50vw;
+}
+
+#scroll{
+  padding: 3px;
+  font-size: large;
+  background-color: aquamarine;
+}
+.textIntro{
+  margin-left: 3vw;
+  font-size: 20px;
+}
+.textIntro h1{
+  font-size: 42px;
+}
